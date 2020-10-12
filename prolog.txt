@@ -1,0 +1,12 @@
+Facts:
+studies(charlie, csc135). 
+studies(olivia, csc135).
+studies(jack, csc131). 
+teaches(collins, csc131). 
+teaches(collins, csc171).
+Rule: 
+professor(X, Y) :- teaches(X, C), studies(Y, C).
+
+Answers:
+a) professor(collins,Y).     OUTPUT : Y = jack
+b) studies(charlie,C).       OUTPUT : C = csc135

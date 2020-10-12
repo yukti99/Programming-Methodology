@@ -1,0 +1,6 @@
+int a, b, c ; 
+float e, f ;
+char ch ; 
+int yukti = b + e + f ;
+e = a / b ;
+                

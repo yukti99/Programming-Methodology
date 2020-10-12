@@ -1,0 +1,24 @@
+// SYMBOL TABLE PROGRAM IN PYTHON
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void main() {
+// declaring variables
+int a3, b = 5, c = 4, _yuk2, i ;     
+int a3 = b+c ;
+float e = b*c ;
+int w = --a3 ;
+long l = sizeof(w) ;
+var = a3/e ;
+printf (" var = %d, e = %f \n ", var, e) ;
+for ( i=0 ; i<b ; i++ ){
+int x = 1 ;
+x += i*2 ;
+printf(" %d \n ", i) ;
+}
+if (i<5 || x>4 )
+printf("HELLO WORLD!\n") ;
+}
+
+
